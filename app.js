@@ -1,4 +1,4 @@
-var percentage = +prompt()
+var percentage = +prompt("Enter your percentage")
 
 if(percentage >= 80 && percentage <= 100){
     console.log("A+ grade")
