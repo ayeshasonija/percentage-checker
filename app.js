@@ -8,7 +8,9 @@ if(percentage >= 80 && percentage <= 100){
     console.log("B grade")
 }else if(percentage >= 50 && percentage <=59){
     console.log("C grade")
-}else if( percentage <= 40 && percentage >= 1){
+}else if(percentage >= 40 && percentage <=49){
+    console.log("D grade")
+}else if( percentage <= 39 && percentage >= 1){
     console.log("fail")
 }else{
     console.log("out of range")
